@@ -64,4 +64,14 @@ The `Admin` class manages the library system and provides various functionalitie
 - **Track Borrowers**: Keep track of users who have borrowed books.
 - **User Interface**: Simple command-line interface for user interaction.
 
+## Folder Structure:
 
+**Create a folder for your project (e.g., LibraryManagementSystem/), and inside that, you will later add these files:**
+
+    LibraryManagementSystem/
+    │
+    ├── Book.py               # Represents a book
+    ├── User.py               # Represents a user
+    ├── Admin.py              # Handles the library logic
+    ├── main.py               # Main menu and input
+    └── (Optional: OperationsManager.py)
