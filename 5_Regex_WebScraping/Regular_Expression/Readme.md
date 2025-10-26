@@ -135,6 +135,12 @@ A step-by-step roadmap to mastering **Regular Expressions (Regex)** – from bas
 
 ---
 
+
+## Regex Functions or Operators
+
+<img width="1486" height="568" alt="image" src="https://github.com/user-attachments/assets/f46cbdc2-02d6-4573-856f-148b3237392d" />
+
+--- 
 ## 🌟 Suggested Learning Flow
 
 Basics ➡️ Literal Characters ➡️ Meta Characters ➡️ Character Classes ➡️ Quantifiers ➡️ Groups ➡️ Practice ➡️ Real-World Projects
@@ -145,5 +151,5 @@ Basics ➡️ Literal Characters ➡️ Meta Characters ➡️ Character Classes
 
 Let's stay in touch and grow together!  
 
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github)](https://github.com/your-username)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/your-linkedin-id/)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github)](https://github.com/DeeprajVadhwane)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/deeprajvadhwane/)
