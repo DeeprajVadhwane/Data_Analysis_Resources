@@ -373,7 +373,7 @@ CREATE TABLE documents (
     certificate BLOB
 );
 ```
-```
+---
 # 🔐 SQL Constraints and Keys — Complete Guide
 
 Constraints are rules applied to columns to **maintain data integrity** and ensure valid, consistent data is stored in the database.
