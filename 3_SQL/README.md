@@ -13,45 +13,8 @@ This repo is structured as a complete course + working example. It contains:
 * Best practices, cheat-sheets, and classroom-ready assignments.
 
 ---
-SQL-Mastery/
-│
-├── 📁 01_Basics/
-│   ├── 1_Introduction_to_SQL.md
-│   ├── 2_Database_Terminology.md
-│   ├── 3_Data_Types.md
-│   ├── 4_SQL_Commands.md
-│
-├── 📁 02_Intermediate/
-│   ├── 1_Operators.md
-│   ├── 2_Constraints.md
-│   ├── 3_Clauses.md
-│   ├── 4_Functions.md
-│
-├── 📁 03_Advanced/
-│   ├── 1_Joins.md
-│   ├── 2_Subqueries.md
-│   ├── 3_CTEs.md
-│   ├── 4_Windows_Functions.md
-│   ├── 5_Views_&_StoredProcedures.md
-│
-├── 📁 04_Expert/
-│   ├── 1_Performance_Optimization.md
-│   ├── 2_Transactions.md
-│   ├── 3_Dynamic_SQL.md
-│   ├── 4_Triggers.md
-│
-├── 📁 05_Projects/
-│   ├── Admission_Analytics_Project.md
-│   ├── Student_Performance_Report.md
-│   ├── Fee_Payment_Insights.md
-│
-├── 📁 Assets/
-│   ├── ER_Diagram.png
-│   ├── Charts/
-│   └── Sample_Data/
-│
-└── README.md
-
+        
+        
 # 🧠 Introduction to SQL
 
 ## 📘 What is SQL?
