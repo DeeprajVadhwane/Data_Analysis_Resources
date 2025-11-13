@@ -1053,40 +1053,264 @@ FROM table_name
 WHERE condition;
 ```
 ### Example (Admission\_DB)
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   SELECT COUNT(*) AS total_students  FROM students;   `
-
-📊 **Result:**
-
-total\_students120
-
-💡 **Tip:**
-
-*   COUNT(\*) counts **all rows**, including NULLs.
-    
-*   COUNT(column\_name) ignores NULL values.
-    
-
 ### 🧩 Example — Conditional Count
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   SELECT COUNT(*) AS science_students  FROM students  WHERE department = 'Science';   `
+`SELECT COUNT(*) AS science_students FROM students WHERE department = 'Science';`
 
 📊 **Result:**
 
-science\_students45
+| science\_students |
+| --- |
+| 45 |
 
-➕ 3. SUM() — Add Up Values
---------------------------
+* * *
+
+## ➕ 3. SUM() — Add Up Values
 
 Calculates the **total sum** of a numeric column.
 
 ### 🧠 Syntax
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   SELECT SUM(column_name)  FROM table_name  WHERE condition;   `
+`SELECT SUM(column_name) FROM table_name WHERE condition;`
 
 ### 📘 Example
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   SELECT SUM(fees_paid) AS total_revenue  FROM admissions;   `
+`SELECT SUM(fees_paid) AS total_revenue FROM admissions;`
+
+📊 **Result:**
+
+| total\_revenue |
+| --- |
+| 854000.00 |
+
+💡 **Use Case:**  
+To find total revenue, total marks, or total expenses.
+
+* * *
+
+## ⚖️ 4. AVG() — Find the Average
+
+Calculates the **average value** of a numeric column.
+
+### 🧠 Syntax
+
+`SELECT AVG(column_name) FROM table_name;`
+
+### 📘 Example
+
+`SELECT AVG(percentage) AS avg_score FROM students WHERE department = 'Science';`
+
+📊 **Result:**
+
+| avg\_score |
+| --- |
+| 86.25 |
+
+💡 **Note:**
+
+-   Ignores NULL values automatically.
+    
+-   Often combined with `GROUP BY`.
+    
+
+* * *
+
+## 🔽 5. MIN() — Find the Smallest Value
+
+Returns the **minimum** value in a column.
+
+### 🧠 Syntax
+
+`SELECT MIN(column_name) FROM table_name;`
+
+### 📘 Example
+
+`SELECT MIN(percentage) AS lowest_score FROM students WHERE department = 'Commerce';`
+
+📊 **Result:**
+
+| lowest\_score |
+| --- |
+| 62.4 |
+
+💡 **Use Case:**  
+Find the lowest salary, smallest order value, or earliest date.
+
+
+## 🔼 6. MAX() — Find the Largest Value
+
+Returns the **maximum** value in a column.
+
+### 🧠 Syntax
+
+`SELECT MAX(column_name) FROM table_name;`
+
+### 📘 Example
+
+`SELECT MAX(percentage) AS highest_score FROM students;`
+
+📊 **Result:**
+
+| highest\_score |
+| --- |
+| 95.8 |
+
+💡 **Use Case:**  
+Get top marks, highest salary, or latest date of admission.
+
+## 🧮 7. Using Aggregate Functions Together
+
+You can apply multiple aggregates in one query.
+
+`SELECT      COUNT(*) AS total_students,     AVG(percentage) AS avg_marks,     MIN(percentage) AS min_marks,     MAX(percentage) AS max_marks FROM students WHERE department = 'Science';`
+
+📊 **Result:**
+
+| total\_students | avg\_marks | min\_marks | max\_marks |
+| --- | --- | --- | --- |
+| 45 | 86.25 | 72.4 | 95.8 |
+
+* * *
+
+## 🧩 8. Aggregate Functions with GROUP BY
+
+Aggregates combined with `GROUP BY` summarize data for each group.
+
+`SELECT department, COUNT(*) AS total_students, AVG(percentage) AS avg_score FROM students GROUP BY department;`
+
+📊 **Result:**
+
+| department | total\_students | avg\_score |
+| --- | --- | --- |
+| Science | 45 | 86.2 |
+| Commerce | 38 | 81.4 |
+| Arts | 37 | 74.9 |
+
+💡 **Concept:**  
+Each department is treated as a **group**, and aggregates are calculated per group.
+
+* * *
+
+## 🧮 9. Conditional Aggregates Using CASE
+
+Sometimes you need aggregates based on a condition (like conditional COUNT or SUM).
+
+`SELECT      SUM(CASE WHEN gender = 'Male' THEN 1 ELSE 0 END) AS male_students,     SUM(CASE WHEN gender = 'Female' THEN 1 ELSE 0 END) AS female_students FROM students;`
+
+📊 **Result:**
+
+| male\_students | female\_students |
+| --- | --- |
+| 55 | 65 |
+
+💡 **Use Case:**  
+Count specific categories (e.g., number of male vs female students).
+
+## 🧩 10. Aggregate with DISTINCT
+
+`DISTINCT` removes duplicates before applying aggregation.
+
+`SELECT COUNT(DISTINCT department) AS unique_departments FROM students;`
+
+📊 **Result:**
+
+| unique\_departments |
+| --- |
+| 3 |
+
+💡 **Concept:**  
+Counts only unique values in a column.
+
+* * *
+
+## ⚙️ 11. Aggregate Functions on Dates
+
+You can also use aggregates on date columns.
+
+`SELECT      MIN(admission_date) AS first_admission,     MAX(admission_date) AS latest_admission FROM admissions;`
+
+📊 **Result:**
+
+| first\_admission | latest\_admission |
+| --- | --- |
+| 2024-01-10 | 2025-10-25 |
+
+💡 **Use Case:**  
+Track time periods — earliest and latest records.
+
+## 🔍 12. Combining Aggregates and HAVING
+
+Use `HAVING` to filter aggregated results.
+
+`SELECT department, AVG(percentage) AS avg_score FROM students GROUP BY department HAVING AVG(percentage) > 80;`
+
+📊 **Result:**
+
+| department | avg\_score |
+| --- | --- |
+| Science | 86.2 |
+| Commerce | 81.3 |
+
+💡 **Tip:**
+
+-   `WHERE` filters **before** aggregation
+    
+-   `HAVING` filters **after** aggregation
+    
+## 🧠 13. Common Mistakes to Avoid
+
+| Mistake | Problem | Fix |
+| --- | --- | --- |
+| Using aggregate in WHERE | SQL error | Use `HAVING` instead |
+| Mixing aggregated and non-aggregated columns | Incorrect grouping | Include non-aggregated columns in `GROUP BY` |
+| Forgetting alias | Confusing results | Use `AS` to name output columns |
+
+* * *
+
+## 🧭 14. Real-World Use Cases
+
+| Scenario | Function | Example |
+| --- | --- | --- |
+| Count total students | `COUNT()` | `SELECT COUNT(*) FROM students;` |
+| Find total revenue | `SUM()` | `SELECT SUM(fees_paid) FROM admissions;` |
+| Get average marks per department | `AVG()` | `SELECT department, AVG(percentage) FROM students GROUP BY department;` |
+| Find top and bottom performers | `MAX()` / `MIN()` | `SELECT MAX(percentage), MIN(percentage) FROM students;` |
+| Identify departments with avg > 80 | `HAVING` | `HAVING AVG(percentage) > 80;` |
+
+* * *
+
+## 🧮 15. Execution Flow (with Aggregates)
+
+1.  **FROM** — Choose the table
+    
+2.  **WHERE** — Filter rows
+    
+3.  **GROUP BY** — Group rows
+    
+4.  **AGGREGATE** — Apply COUNT, SUM, etc.
+    
+5.  **HAVING** — Filter groups
+    
+6.  **ORDER BY** — Sort output
+    
+
+* * *
+
+## 🧩 Summary — Aggregate Functions Overview
+
+| Function | Meaning | Common Use |
+| --- | --- | --- |
+| `COUNT()` | Number of rows | Total students, orders |
+| `SUM()` | Total sum | Total fees, sales |
+| `AVG()` | Average value | Mean marks or price |
+| `MIN()` | Minimum | Lowest marks or earliest date |
+| `MAX()` | Maximum | Top marks or latest date |
+
+📊 **Result:**
+
+science\_students45
+
+
 
 📊 **Result:**
 
