@@ -287,6 +287,7 @@ CREATE TABLE fee_details (
     fees_paid DECIMAL(10,2),
     remaining_fees AS (total_fees - fees_paid)
 );
+```
 
 # 🧱 SQL Data Types — Complete Reference
 
@@ -325,4 +326,248 @@ CREATE TABLE students (
 );
 ```
 
+## 3. Date and Time Data Types
 
+Used for storing time-based information — like admission date, date of birth, or payment timestamps.
+
+| Data Type | Description | Example (Admission_DB) |
+|------------|--------------|------------------------|
+| **DATE** | Stores only date (YYYY-MM-DD) | dob, admission_date |
+| **TIME** | Stores time (HH:MM:SS) | class_start_time |
+| **DATETIME** | Stores both date & time | created_at, updated_at |
+| **TIMESTAMP** | Auto-updated time value | record_modified |
+| **YEAR** | Stores 4-digit year | year_of_passing |
+
+### 🧠 Example
+```sql
+CREATE TABLE admissions (
+    admission_id INT PRIMARY KEY AUTO_INCREMENT,
+    student_id INT,
+    admission_date DATE NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+```
+## 4. Boolean Data Type
+
+Used for storing **true/false** or **yes/no** values.
+
+| Data Type | Description | Example |
+|------------|--------------|----------|
+| **BOOLEAN / BOOL** | Stores TRUE or FALSE (internally 0 or 1) | is_active, is_eligible |
+
+### 🧠 Example
+```sql
+CREATE TABLE course_registration (
+    student_id INT,
+    course_id INT,
+    is_approved BOOLEAN DEFAULT FALSE
+);
+```
+## 5. Binary Data Types (Advanced)
+
+Used for storing **non-text data** like images, PDFs, or certificates.
+
+| Data Type | Description | Example |
+|------------|--------------|----------|
+| **BLOB** | Binary Large Object | Store scanned documents |
+| **VARBINARY(n)** | Variable-length binary data | Digital signature |
+
+### 🧠 Example
+```sql
+CREATE TABLE documents (
+    doc_id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id INT,
+    certificate BLOB
+);
+```
+
+# 🔐 SQL Constraints and Keys — Complete Guide
+
+Constraints are rules applied to columns to **maintain data integrity** and ensure valid, consistent data is stored in the database.
+
+---
+
+##  1. What Are Constraints?
+
+Constraints restrict the type of data that can go into a table column.  
+They help prevent invalid data entry (like negative age or duplicate emails).
+
+💡 **Example:**  
+You can prevent duplicate student emails using a `UNIQUE` constraint,  
+or stop empty name fields using a `NOT NULL` constraint.
+
+---
+
+##  2. Common Types of Constraints
+
+| Constraint | Description | Example Use |
+|-------------|--------------|--------------|
+| **NOT NULL** | Ensures a column cannot have NULL values | `student_name` must always have a value |
+| **UNIQUE** | Ensures all values in a column are unique | Email IDs or Roll Numbers |
+| **PRIMARY KEY** | Uniquely identifies each record | `student_id` |
+| **FOREIGN KEY** | Links two tables together | `student_id` in admissions references students |
+| **CHECK** | Validates values based on a condition | Age must be >= 18 |
+| **DEFAULT** | Sets a default value when none is provided | Default `status = 'Pending'` |
+| **AUTO_INCREMENT** | Automatically generates unique IDs | Student ID auto-increments |
+
+---
+
+## 3. NOT NULL Constraint
+
+Ensures a column cannot have empty (NULL) values.
+
+```sql
+CREATE TABLE students (
+    student_id INT AUTO_INCREMENT PRIMARY KEY,
+    full_name VARCHAR(100) NOT NULL,
+    email VARCHAR(100),
+    gender CHAR(6)
+);
+```
+
+## 4. UNIQUE Constraint
+
+Ensures all values in a column are unique (no duplicates).
+
+CREATE TABLE students (
+    student_id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(100) UNIQUE,
+    phone_number VARCHAR(15) UNIQUE
+);
+
+💡 Use UNIQUE for attributes like email, roll number, or Aadhar number.
+
+## 5. PRIMARY KEY Constraint
+
+The PRIMARY KEY uniquely identifies each record in a table.
+Every table should have one primary key.
+```sql
+CREATE TABLE departments (
+    dept_id INT PRIMARY KEY AUTO_INCREMENT,
+    dept_name VARCHAR(50) NOT NULL
+);
+
+```
+💡**Rules:**
+
+Each table can have only one PRIMARY KEY.
+
+Primary keys cannot be NULL.
+
+They are often combined with AUTO_INCREMENT.
+
+## 6. FOREIGN KEY Constraint
+
+A FOREIGN KEY links two tables together and enforces referential integrity.
+```sql
+CREATE TABLE admissions (
+    admission_id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id INT,
+    admission_date DATE,
+    FOREIGN KEY (student_id) REFERENCES students(student_id)
+);
+```
+
+💡 Example:
+If a student record is deleted, you can control what happens to related admissions:
+
+CASCADE: Delete related admissions automatically.
+
+SET NULL: Set student_id to NULL.
+
+NO ACTION: Prevent deletion if referenced.
+
+ Example with CASCADE
+
+FOREIGN KEY (student_id) REFERENCES students(student_id)
+ON DELETE CASCADE;
+
+## 7. CHECK Constraint
+
+Validates data based on a condition before inserting.
+```sql
+CREATE TABLE marks (
+    mark_id INT AUTO_INCREMENT PRIMARY KEY,
+    marks_obtained INT CHECK (marks_obtained BETWEEN 0 AND 100)
+);
+```
+
+
+💡 Prevents invalid marks (like -10 or 120) from being inserted.
+
+## 8. DEFAULT Constraint
+
+Sets a default value for a column if no value is provided.
+
+CREATE TABLE course_registration (
+    reg_id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id INT,
+    status VARCHAR(20) DEFAULT 'Pending'
+);
+
+
+💡 Common defaults:
+
+Boolean flags → DEFAULT TRUE
+
+Status fields → DEFAULT 'Active'
+
+Timestamps → DEFAULT CURRENT_TIMESTAMP
+
+🧩 9. AUTO_INCREMENT
+
+Automatically generates sequential numbers for primary keys.
+
+CREATE TABLE departments (
+    dept_id INT AUTO_INCREMENT PRIMARY KEY,
+    dept_name VARCHAR(50)
+);
+
+
+💡 No need to manually insert IDs — they’re generated automatically.
+
+🔗 10. Combining Constraints
+
+You can apply multiple constraints on a single column.
+```sql
+CREATE TABLE students (
+    student_id INT AUTO_INCREMENT PRIMARY KEY,
+    full_name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    age INT CHECK (age >= 18)
+);
+```
+🧭 11. Quick Summary
+Constraint	Purpose	Example
+NOT NULL	Prevent empt
+
+## 🧭 11. Quick Summary
+
+| Constraint | Purpose | Example |
+|-------------|----------|----------|
+| **NOT NULL** | Prevent empty values | full_name NOT NULL |
+| **UNIQUE** | Prevent duplicates | email UNIQUE |
+| **PRIMARY KEY** | Unique identifier | student_id |
+| **FOREIGN KEY** | Table relationships | student_id → students |
+| **CHECK** | Validate conditions | age >= 18 |
+| **DEFAULT** | Assign default value | status DEFAULT 'Active' |
+| **AUTO_INCREMENT** | Auto-generate IDs | student_id AUTO_INCREMENT |
+
+
+```sql
+CREATE TABLE students (
+    student_id INT AUTO_INCREMENT PRIMARY KEY,
+    full_name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE,
+    age INT CHECK (age >= 18),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE admissions (
+    admission_id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id INT,
+    admission_date DATE NOT NULL,
+    FOREIGN KEY (student_id) REFERENCES students(student_id)
+);
+
+```
