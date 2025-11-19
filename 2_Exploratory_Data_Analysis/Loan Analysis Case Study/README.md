@@ -60,7 +60,7 @@ Analysis of **one variable at a time**.
 
 ## **A. Discrete Data** (Categorical or Numerical-Discrete)
 
-### ✔ Statistical (Non-Visual)  
+### Statistical (Non-Visual)  
 **Purpose: Summarize frequency and category behaviour**
 
 - `count`  
@@ -109,8 +109,6 @@ Analysis of **two variables together** to understand relationships.
 ###  Visual  
 - Scatter Plot  
 
----
-
 ## **B. Continuous Numerical vs Discrete Data**
 
 ###  Statistical  
@@ -123,8 +121,6 @@ Analysis of **two variables together** to understand relationships.
 - Box Plot  
 - Histogram  
 
----
-
 ## **C. Discrete vs Discrete Data**
 
 ###  Statistical  
@@ -135,8 +131,6 @@ Analysis of **two variables together** to understand relationships.
 ###  Visual  
 - Stacked Bar Plot  
 - Unstacked Bar Plot  
-
-
 
 # 5. Final Summary
 
@@ -149,5 +143,5 @@ This case study demonstrates how to:
 
 This project serves as a practical EDA example for learners, analysts, and anyone exploring credit-risk datasets.
 
----
+
 
