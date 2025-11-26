@@ -1,0 +1,301 @@
+order_id,order_date,customer_id,product_name,category,quantity,unit_price,total_price,payment_method,city
+ORD1115,2024-11-18,CUST0116,USB-C Charger,Electronics,2,180.4,360.8,Debit Card,Los Angeles
+ORD1148,2024-11-19,CUST0039,Bluetooth Speaker,Electronics,4,282.29,1129.16,Credit Card,Dallas
+ORD1005,2024-11-19,CUST0040,USB-C Charger,Electronics,1,193.59,193.59,PayPal,Phoenix
+ORD1086,2024-11-20,CUST0064,Wireless Earbuds,Electronics,1,300.62,300.62,Credit Card,Phoenix
+ORD1020,2024-11-21,CUST0129,LED Desk Lamp,Home,3,39.5,118.5,Cash on Delivery,Houston
+ORD1089,2024-11-23,CUST0130,Portable SSD,Electronics,2,11.89,23.78,PayPal,Phoenix
+ORD1137,2024-11-24,CUST0173,Portable SSD,Electronics,5,414.0,2070.0,PayPal,Dallas
+ORD1170,2024-11-27,CUST0200,Wireless Earbuds,Electronics,5,262.02,1310.1,Debit Card,Boston
+ORD1263,2024-11-30,CUST0189,LED Desk Lamp,Home,1,346.22,346.22,PayPal,Phoenix
+ORD1237,2024-12-01,CUST0035,Bluetooth Speaker,Electronics,3,88.83,266.49,PayPal,Boston
+ORD1215,2024-12-02,CUST0140,Noise Cancelling Headphones,Electronics,4,338.81,1355.24,Credit Card,Boston
+ORD1156,2024-12-06,CUST0041,HD Webcam,Electronics,1,168.67,168.67,Credit Card,Dallas
+ORD1125,2024-12-07,CUST0189,Portable SSD,Electronics,3,14.82,44.46,Credit Card,Los Angeles
+ORD1081,2024-12-08,CUST0082,HD Webcam,Electronics,3,314.24,942.72,Cash on Delivery,Los Angeles
+ORD1213,2024-12-08,CUST0070,External Hard Drive,Electronics,3,417.72,1253.16,PayPal,Los Angeles
+ORD1252,2024-12-09,CUST0179,Laptop Stand,Accessories,1,186.96,186.96,Net Banking,Phoenix
+ORD1090,2024-12-09,CUST0012,HD Webcam,Electronics,2,189.06,378.12,PayPal,Boston
+ORD1179,2024-12-11,CUST0175,LED Desk Lamp,Home,4,265.81,1063.24,Debit Card,San Diego
+ORD1043,2024-12-12,CUST0149,USB-C Charger,Electronics,5,476.59,2382.95,Credit Card,Boston
+ORD1242,2024-12-13,CUST0002,Wireless Mouse,Electronics,1,414.67,414.67,Credit Card,Houston
+ORD1033,2024-12-13,CUST0034,Wireless Mouse,Electronics,4,58.18,232.72,Debit Card,Houston
+ORD1114,2024-12-15,CUST0027,Portable SSD,Electronics,5,446.68,2233.4,Debit Card,Boston
+ORD1269,2024-12-15,CUST0120,Bluetooth Speaker,Electronics,1,174.96,174.96,Net Banking,Chicago
+ORD1191,2024-12-16,CUST0185,Bluetooth Speaker,Electronics,5,132.41,662.05,Debit Card,Houston
+ORD1038,2024-12-17,CUST0178,Laptop Stand,Accessories,2,67.79,135.58,Cash on Delivery,Boston
+ORD1110,2024-12-21,CUST0137,Fitness Band,Wearables,2,401.64,803.28,Debit Card,Dallas
+ORD1151,2024-12-21,CUST0158,Wireless Mouse,Electronics,1,81.18,81.18,Cash on Delivery,Houston
+ORD1284,2024-12-22,CUST0066,Bluetooth Speaker,Electronics,3,496.89,1490.67,Cash on Delivery,Phoenix
+ORD1222,2024-12-25,CUST0083,Gaming Keyboard,Electronics,4,436.25,1745.0,Cash on Delivery,New York
+ORD1059,2024-12-26,CUST0028,Gaming Keyboard,Electronics,2,77.27,154.54,Credit Card,Chicago
+ORD1077,2024-12-27,CUST0135,Laptop Stand,Accessories,4,312.28,1249.12,PayPal,Boston
+ORD1268,2024-12-31,CUST0057,Tablet,Electronics,1,286.3,286.3,Credit Card,Boston
+ORD1211,2025-01-02,CUST0142,Bluetooth Speaker,Electronics,2,353.5,707.0,Net Banking,Boston
+ORD1022,2025-01-03,CUST0142,HD Webcam,Electronics,3,275.82,827.46,Credit Card,Boston
+ORD1130,2025-01-05,CUST0055,LED Desk Lamp,Home,2,372.57,745.14,Net Banking,Phoenix
+ORD1063,2025-01-08,CUST0014,Gaming Keyboard,Electronics,5,162.32,811.6,Net Banking,Chicago
+ORD1097,2025-01-08,CUST0072,External Hard Drive,Electronics,2,136.46,272.92,Cash on Delivery,Houston
+ORD1267,2025-01-09,CUST0192,Gaming Keyboard,Electronics,4,151.71,606.84,Credit Card,Boston
+ORD1006,2025-01-12,CUST0121,Bluetooth Speaker,Electronics,5,151.86,759.3,Debit Card,New York
+ORD1203,2025-01-13,CUST0185,Smart Watch,Wearables,3,370.33,1110.99,Credit Card,Phoenix
+ORD1292,2025-01-14,CUST0023,Fitness Band,Wearables,2,218.45,436.9,Net Banking,San Diego
+ORD1126,2025-01-15,CUST0136,Power Bank,Electronics,4,498.63,1994.52,Cash on Delivery,Boston
+ORD1025,2025-01-15,CUST0050,Fitness Band,Wearables,2,94.06,188.12,Credit Card,Boston
+ORD1187,2025-01-16,CUST0036,Tablet,Electronics,2,145.35,290.7,PayPal,New York
+ORD1026,2025-01-16,CUST0154,Wireless Mouse,Electronics,2,109.35,218.7,PayPal,Boston
+ORD1066,2025-01-16,CUST0041,Smart Watch,Wearables,1,145.21,145.21,Debit Card,Chicago
+ORD1122,2025-01-17,CUST0127,Portable SSD,Electronics,4,206.29,825.16,Cash on Delivery,Phoenix
+ORD1260,2025-01-17,CUST0157,External Hard Drive,Electronics,3,78.65,235.95,Net Banking,Chicago
+ORD1095,2025-01-19,CUST0128,Portable SSD,Electronics,1,174.94,174.94,Debit Card,Los Angeles
+ORD1023,2025-01-21,CUST0167,Laptop Stand,Accessories,2,244.07,488.14,Debit Card,Los Angeles
+ORD1013,2025-01-21,CUST0137,Noise Cancelling Headphones,Electronics,2,360.71,721.42,Credit Card,Boston
+ORD1119,2025-01-21,CUST0097,Laptop Stand,Accessories,1,389.66,389.66,Credit Card,Houston
+ORD1221,2025-01-22,CUST0072,Power Bank,Electronics,5,479.4,2397.0,Credit Card,Boston
+ORD1104,2025-01-24,CUST0086,Power Bank,Electronics,2,56.44,112.88,PayPal,Boston
+ORD1286,2025-01-26,CUST0098,USB-C Charger,Electronics,5,434.75,2173.75,Net Banking,Chicago
+ORD1147,2025-01-28,CUST0075,Portable SSD,Electronics,5,364.56,1822.8,PayPal,Chicago
+ORD1040,2025-01-28,CUST0172,Portable SSD,Electronics,2,206.01,412.02,PayPal,New York
+ORD1058,2025-01-29,CUST0132,Portable SSD,Electronics,4,192.64,770.56,Cash on Delivery,Chicago
+ORD1139,2025-01-30,CUST0164,USB-C Charger,Electronics,5,188.98,944.9,Net Banking,New York
+ORD1245,2025-01-31,CUST0131,Bluetooth Speaker,Electronics,2,176.52,353.04,PayPal,Houston
+ORD1003,2025-01-31,CUST0164,Tablet,Electronics,2,127.54,255.08,Net Banking,New York
+ORD1266,2025-02-01,CUST0152,Wireless Earbuds,Electronics,2,177.52,355.04,Credit Card,Phoenix
+ORD1073,2025-02-03,CUST0032,USB-C Charger,Electronics,3,158.49,475.47,Credit Card,Los Angeles
+ORD1195,2025-02-05,CUST0188,Smart Watch,Wearables,4,166.67,666.68,Net Banking,Boston
+ORD1018,2025-02-05,CUST0148,Power Bank,Electronics,4,126.21,504.84,Credit Card,Phoenix
+ORD1165,2025-02-06,CUST0110,Noise Cancelling Headphones,Electronics,5,354.8,1774.0,Cash on Delivery,Dallas
+ORD1145,2025-02-06,CUST0158,LED Desk Lamp,Home,1,410.18,410.18,Credit Card,Chicago
+ORD1218,2025-02-07,CUST0141,Bluetooth Speaker,Electronics,4,74.3,297.2,Cash on Delivery,Boston
+ORD1060,2025-02-08,CUST0066,Wireless Mouse,Electronics,3,135.61,406.83,Net Banking,Phoenix
+ORD1220,2025-02-09,CUST0139,Portable SSD,Electronics,3,49.27,147.81,Credit Card,New York
+ORD1009,2025-02-11,CUST0100,LED Desk Lamp,Home,1,174.19,174.19,Net Banking,Los Angeles
+ORD1210,2025-02-12,CUST0143,Gaming Keyboard,Electronics,3,335.32,1005.96,Net Banking,New York
+ORD1229,2025-02-15,CUST0159,Portable SSD,Electronics,1,480.17,480.17,Net Banking,Los Angeles
+ORD1144,2025-02-15,CUST0007,Tablet,Electronics,3,208.01,624.03,PayPal,Los Angeles
+ORD1225,2025-02-19,CUST0146,Wireless Earbuds,Electronics,3,342.6,1027.8,Cash on Delivery,New York
+ORD1132,2025-02-21,CUST0194,HD Webcam,Electronics,4,190.56,762.24,Cash on Delivery,Phoenix
+ORD1270,2025-02-23,CUST0075,Noise Cancelling Headphones,Electronics,5,327.57,1637.85,Credit Card,Phoenix
+ORD1068,2025-02-24,CUST0172,Noise Cancelling Headphones,Electronics,1,479.37,479.37,PayPal,Dallas
+ORD1283,2025-02-25,CUST0189,Wireless Earbuds,Electronics,4,289.59,1158.36,Debit Card,Los Angeles
+ORD1285,2025-02-25,CUST0016,USB-C Charger,Electronics,5,386.62,1933.1,Cash on Delivery,San Diego
+ORD1103,2025-02-25,CUST0169,Smart Watch,Wearables,3,196.75,590.25,PayPal,Los Angeles
+ORD1287,2025-03-01,CUST0128,Wireless Mouse,Electronics,3,473.18,1419.54,Net Banking,Dallas
+ORD1228,2025-03-03,CUST0090,Noise Cancelling Headphones,Electronics,1,299.29,299.29,Debit Card,Phoenix
+ORD1146,2025-03-06,CUST0029,Gaming Keyboard,Electronics,3,36.52,109.56,Cash on Delivery,Boston
+ORD1011,2025-03-06,CUST0167,Smart Watch,Wearables,2,455.16,910.32,Debit Card,Phoenix
+ORD1259,2025-03-07,CUST0177,Laptop Stand,Accessories,1,109.3,109.3,PayPal,San Diego
+ORD1276,2025-03-07,CUST0060,Gaming Keyboard,Electronics,3,58.95,176.85,Debit Card,Boston
+ORD1028,2025-03-10,CUST0043,Tablet,Electronics,2,135.61,271.22,Credit Card,Dallas
+ORD1069,2025-03-11,CUST0052,Wireless Mouse,Electronics,4,302.47,1209.88,Debit Card,Phoenix
+ORD1123,2025-03-11,CUST0095,Smart Watch,Wearables,2,375.82,751.64,PayPal,Boston
+ORD1117,2025-03-13,CUST0184,Tablet,Electronics,2,185.11,370.22,Cash on Delivery,Houston
+ORD1001,2025-03-13,CUST0196,Portable SSD,Electronics,2,332.24,664.48,Net Banking,Chicago
+ORD1275,2025-03-14,CUST0059,Tablet,Electronics,4,92.21,368.84,Debit Card,Dallas
+ORD1107,2025-03-15,CUST0177,Laptop Stand,Accessories,5,172.04,860.2,Credit Card,New York
+ORD1092,2025-03-16,CUST0121,Gaming Keyboard,Electronics,2,196.87,393.74,PayPal,San Diego
+ORD1194,2025-03-17,CUST0112,Smart Watch,Wearables,5,20.31,101.55,PayPal,Houston
+ORD1031,2025-03-18,CUST0022,External Hard Drive,Electronics,3,425.67,1277.01,Cash on Delivery,New York
+ORD1096,2025-03-18,CUST0004,Gaming Keyboard,Electronics,4,455.49,1821.96,Net Banking,Chicago
+ORD1091,2025-03-20,CUST0037,Bluetooth Speaker,Electronics,3,113.07,339.21,Cash on Delivery,San Diego
+ORD1082,2025-03-21,CUST0122,Bluetooth Speaker,Electronics,1,326.18,326.18,Debit Card,Houston
+ORD1183,2025-03-21,CUST0041,External Hard Drive,Electronics,2,331.06,662.12,Net Banking,Chicago
+ORD1108,2025-03-24,CUST0024,Laptop Stand,Accessories,4,363.09,1452.36,Debit Card,Dallas
+ORD1261,2025-03-24,CUST0169,Wireless Earbuds,Electronics,5,232.71,1163.55,Debit Card,New York
+ORD1162,2025-03-25,CUST0174,Bluetooth Speaker,Electronics,1,60.29,60.29,Debit Card,Houston
+ORD1230,2025-03-26,CUST0118,Laptop Stand,Accessories,4,427.25,1709.0,Net Banking,Los Angeles
+ORD1280,2025-03-26,CUST0189,HD Webcam,Electronics,4,27.11,108.44,Cash on Delivery,San Diego
+ORD1088,2025-03-28,CUST0003,Noise Cancelling Headphones,Electronics,2,106.64,213.28,Debit Card,Houston
+ORD1072,2025-03-29,CUST0051,HD Webcam,Electronics,3,259.42,778.26,Net Banking,Los Angeles
+ORD1041,2025-03-31,CUST0150,Portable SSD,Electronics,2,248.14,496.28,PayPal,Boston
+ORD1149,2025-04-01,CUST0103,Smart Watch,Wearables,1,429.56,429.56,Debit Card,San Diego
+ORD1027,2025-04-01,CUST0070,Portable SSD,Electronics,2,331.03,662.06,PayPal,San Diego
+ORD1029,2025-04-06,CUST0138,Bluetooth Speaker,Electronics,5,463.41,2317.05,PayPal,Phoenix
+ORD1205,2025-04-10,CUST0007,External Hard Drive,Electronics,5,289.16,1445.8,Debit Card,Chicago
+ORD1128,2025-04-11,CUST0041,Tablet,Electronics,1,333.28,333.28,Net Banking,Houston
+ORD1164,2025-04-11,CUST0150,Noise Cancelling Headphones,Electronics,4,122.06,488.24,Cash on Delivery,Boston
+ORD1253,2025-04-18,CUST0102,Fitness Band,Wearables,1,253.13,253.13,Net Banking,San Diego
+ORD1227,2025-04-19,CUST0131,Power Bank,Electronics,2,250.81,501.62,Net Banking,Phoenix
+ORD1288,2025-04-19,CUST0153,Gaming Keyboard,Electronics,5,386.43,1932.15,Net Banking,San Diego
+ORD1231,2025-04-21,CUST0142,Gaming Keyboard,Electronics,2,407.84,815.68,Cash on Delivery,Boston
+ORD1135,2025-04-22,CUST0001,Tablet,Electronics,2,471.24,942.48,Cash on Delivery,Houston
+ORD1196,2025-04-25,CUST0174,USB-C Charger,Electronics,3,144.04,432.12,Credit Card,New York
+ORD1247,2025-04-27,CUST0176,Fitness Band,Wearables,2,335.48,670.96,Cash on Delivery,San Diego
+ORD1056,2025-04-27,CUST0030,Wireless Mouse,Electronics,5,477.34,2386.7,Debit Card,Phoenix
+ORD1127,2025-04-27,CUST0065,Portable SSD,Electronics,1,321.37,321.37,Net Banking,Houston
+ORD1297,2025-04-29,CUST0104,Wireless Earbuds,Electronics,3,31.32,93.96,PayPal,Dallas
+ORD1171,2025-04-29,CUST0114,Bluetooth Speaker,Electronics,2,386.58,773.16,Debit Card,Chicago
+ORD1158,2025-04-30,CUST0158,USB-C Charger,Electronics,1,24.37,24.37,PayPal,Boston
+ORD1236,2025-04-30,CUST0019,LED Desk Lamp,Home,4,256.23,1024.92,Credit Card,Houston
+ORD1168,2025-04-30,CUST0195,Noise Cancelling Headphones,Electronics,2,365.4,730.8,Net Banking,Dallas
+ORD1039,2025-05-03,CUST0022,HD Webcam,Electronics,5,455.65,2278.25,Credit Card,New York
+ORD1289,2025-05-04,CUST0096,LED Desk Lamp,Home,1,258.94,258.94,Cash on Delivery,Houston
+ORD1207,2025-05-04,CUST0178,Wireless Earbuds,Electronics,2,143.71,287.42,Credit Card,Phoenix
+ORD1042,2025-05-07,CUST0077,Tablet,Electronics,4,133.67,534.68,Cash on Delivery,San Diego
+ORD1098,2025-05-07,CUST0003,Portable SSD,Electronics,3,362.4,1087.2,Credit Card,Chicago
+ORD1157,2025-05-10,CUST0078,Laptop Stand,Accessories,4,156.72,626.88,Cash on Delivery,Los Angeles
+ORD1010,2025-05-10,CUST0005,Fitness Band,Wearables,1,55.58,55.58,Net Banking,Houston
+ORD1084,2025-05-12,CUST0147,Gaming Keyboard,Electronics,3,344.24,1032.72,Cash on Delivery,San Diego
+ORD1161,2025-05-12,CUST0161,External Hard Drive,Electronics,4,256.25,1025.0,Credit Card,Houston
+ORD1296,2025-05-12,CUST0116,HD Webcam,Electronics,5,144.22,721.1,Net Banking,Los Angeles
+ORD1152,2025-05-14,CUST0181,Noise Cancelling Headphones,Electronics,2,395.37,790.74,Credit Card,New York
+ORD1083,2025-05-14,CUST0159,Wireless Earbuds,Electronics,4,126.6,506.4,Cash on Delivery,New York
+ORD1017,2025-05-17,CUST0126,USB-C Charger,Electronics,5,211.62,1058.1,Net Banking,New York
+ORD1232,2025-05-18,CUST0048,Noise Cancelling Headphones,Electronics,3,152.56,457.68,Credit Card,Boston
+ORD1206,2025-05-18,CUST0023,Noise Cancelling Headphones,Electronics,5,458.77,2293.85,Credit Card,Dallas
+ORD1256,2025-05-18,CUST0050,LED Desk Lamp,Home,2,373.04,746.08,Credit Card,Boston
+ORD1131,2025-05-21,CUST0006,Smart Watch,Wearables,3,498.21,1494.63,Net Banking,Dallas
+ORD1172,2025-05-21,CUST0070,Wireless Mouse,Electronics,5,367.7,1838.5,PayPal,Dallas
+ORD1188,2025-05-22,CUST0118,Tablet,Electronics,2,114.05,228.1,PayPal,San Diego
+ORD1133,2025-05-25,CUST0174,Portable SSD,Electronics,1,269.7,269.7,Net Banking,San Diego
+ORD1075,2025-05-26,CUST0188,Fitness Band,Wearables,2,242.29,484.58,Debit Card,Phoenix
+ORD1208,2025-05-27,CUST0172,USB-C Charger,Electronics,4,238.91,955.64,Debit Card,Phoenix
+ORD1181,2025-05-28,CUST0178,Portable SSD,Electronics,4,108.16,432.64,PayPal,Houston
+ORD1197,2025-05-29,CUST0163,Fitness Band,Wearables,1,126.38,126.38,PayPal,Boston
+ORD1254,2025-05-29,CUST0126,Smart Watch,Wearables,5,36.29,181.45,Debit Card,Chicago
+ORD1070,2025-05-30,CUST0102,USB-C Charger,Electronics,2,340.03,680.06,Debit Card,Houston
+ORD1300,2025-05-31,CUST0046,Wireless Earbuds,Electronics,1,455.47,455.47,Net Banking,San Diego
+ORD1067,2025-05-31,CUST0116,USB-C Charger,Electronics,1,485.91,485.91,PayPal,Los Angeles
+ORD1076,2025-06-01,CUST0108,Power Bank,Electronics,1,76.65,76.65,Debit Card,San Diego
+ORD1155,2025-06-02,CUST0113,LED Desk Lamp,Home,4,478.19,1912.76,Debit Card,New York
+ORD1216,2025-06-02,CUST0167,External Hard Drive,Electronics,2,193.93,387.86,Debit Card,Phoenix
+ORD1240,2025-06-04,CUST0150,Fitness Band,Wearables,3,229.16,687.48,Credit Card,Los Angeles
+ORD1160,2025-06-04,CUST0076,Tablet,Electronics,5,45.89,229.45,Credit Card,Los Angeles
+ORD1167,2025-06-04,CUST0039,USB-C Charger,Electronics,2,349.04,698.08,Cash on Delivery,Boston
+ORD1034,2025-06-05,CUST0142,Noise Cancelling Headphones,Electronics,5,373.5,1867.5,Cash on Delivery,San Diego
+ORD1129,2025-06-07,CUST0117,LED Desk Lamp,Home,3,40.16,120.48,Debit Card,San Diego
+ORD1219,2025-06-08,CUST0088,Noise Cancelling Headphones,Electronics,2,473.52,947.04,PayPal,San Diego
+ORD1007,2025-06-09,CUST0052,Laptop Stand,Accessories,2,46.86,93.72,PayPal,Houston
+ORD1299,2025-06-10,CUST0009,External Hard Drive,Electronics,4,490.7,1962.8,Net Banking,Dallas
+ORD1274,2025-06-10,CUST0128,Tablet,Electronics,2,129.39,258.78,Cash on Delivery,Houston
+ORD1113,2025-06-12,CUST0071,Noise Cancelling Headphones,Electronics,2,418.12,836.24,Debit Card,Phoenix
+ORD1014,2025-06-13,CUST0074,External Hard Drive,Electronics,4,393.68,1574.72,Debit Card,San Diego
+ORD1138,2025-06-13,CUST0193,USB-C Charger,Electronics,2,135.47,270.94,Credit Card,Dallas
+ORD1204,2025-06-14,CUST0128,External Hard Drive,Electronics,1,256.76,256.76,Net Banking,Dallas
+ORD1046,2025-06-16,CUST0129,Power Bank,Electronics,3,335.11,1005.33,Debit Card,Los Angeles
+ORD1106,2025-06-17,CUST0090,Fitness Band,Wearables,4,183.34,733.36,Cash on Delivery,Dallas
+ORD1105,2025-06-21,CUST0050,Bluetooth Speaker,Electronics,2,237.63,475.26,Net Banking,Houston
+ORD1047,2025-06-21,CUST0114,External Hard Drive,Electronics,1,159.27,159.27,Net Banking,San Diego
+ORD1238,2025-06-21,CUST0067,Fitness Band,Wearables,1,359.72,359.72,Debit Card,San Diego
+ORD1079,2025-06-24,CUST0168,Laptop Stand,Accessories,2,405.88,811.76,Credit Card,Houston
+ORD1037,2025-06-24,CUST0076,Bluetooth Speaker,Electronics,2,314.88,629.76,Debit Card,Los Angeles
+ORD1071,2025-06-25,CUST0034,USB-C Charger,Electronics,1,344.73,344.73,Net Banking,San Diego
+ORD1291,2025-06-29,CUST0045,Gaming Keyboard,Electronics,2,195.82,391.64,Debit Card,Phoenix
+ORD1054,2025-06-30,CUST0109,Gaming Keyboard,Electronics,5,101.65,508.25,Debit Card,New York
+ORD1178,2025-07-01,CUST0083,USB-C Charger,Electronics,4,361.67,1446.68,PayPal,Dallas
+ORD1140,2025-07-01,CUST0027,Tablet,Electronics,1,246.81,246.81,Credit Card,Houston
+ORD1293,2025-07-01,CUST0161,Wireless Earbuds,Electronics,1,423.72,423.72,Credit Card,Boston
+ORD1278,2025-07-02,CUST0035,Portable SSD,Electronics,1,367.08,367.08,PayPal,Los Angeles
+ORD1223,2025-07-03,CUST0131,Power Bank,Electronics,1,495.01,495.01,Debit Card,San Diego
+ORD1190,2025-07-03,CUST0139,Fitness Band,Wearables,5,445.31,2226.55,PayPal,Houston
+ORD1052,2025-07-03,CUST0173,Bluetooth Speaker,Electronics,4,78.19,312.76,Debit Card,Boston
+ORD1186,2025-07-04,CUST0004,LED Desk Lamp,Home,3,261.56,784.68,PayPal,Los Angeles
+ORD1279,2025-07-06,CUST0129,Power Bank,Electronics,2,224.41,448.82,Net Banking,New York
+ORD1177,2025-07-07,CUST0003,Laptop Stand,Accessories,1,18.87,18.87,Cash on Delivery,Dallas
+ORD1141,2025-07-07,CUST0184,Gaming Keyboard,Electronics,5,123.23,616.15,PayPal,Phoenix
+ORD1064,2025-07-07,CUST0180,Power Bank,Electronics,3,332.9,998.7,Credit Card,San Diego
+ORD1198,2025-07-09,CUST0031,HD Webcam,Electronics,1,141.74,141.74,Credit Card,Dallas
+ORD1271,2025-07-12,CUST0074,Gaming Keyboard,Electronics,4,314.17,1256.68,Net Banking,Los Angeles
+ORD1142,2025-07-13,CUST0147,Smart Watch,Wearables,4,82.89,331.56,PayPal,Dallas
+ORD1282,2025-07-16,CUST0130,Portable SSD,Electronics,5,271.85,1359.25,Net Banking,Boston
+ORD1249,2025-07-16,CUST0115,Bluetooth Speaker,Electronics,2,46.21,92.42,Debit Card,San Diego
+ORD1290,2025-07-18,CUST0074,External Hard Drive,Electronics,4,36.37,145.48,Cash on Delivery,San Diego
+ORD1169,2025-07-19,CUST0116,Laptop Stand,Accessories,4,387.75,1551.0,Debit Card,Chicago
+ORD1258,2025-07-19,CUST0056,Portable SSD,Electronics,1,472.39,472.39,PayPal,Houston
+ORD1251,2025-07-20,CUST0130,Portable SSD,Electronics,2,153.44,306.88,Credit Card,Chicago
+ORD1099,2025-07-26,CUST0164,USB-C Charger,Electronics,5,280.66,1403.3,Credit Card,Dallas
+ORD1074,2025-07-26,CUST0035,Laptop Stand,Accessories,2,310.44,620.88,Cash on Delivery,Phoenix
+ORD1262,2025-07-28,CUST0062,LED Desk Lamp,Home,2,237.18,474.36,Credit Card,Houston
+ORD1226,2025-07-28,CUST0022,Bluetooth Speaker,Electronics,3,100.08,300.24,Credit Card,Boston
+ORD1250,2025-08-01,CUST0122,External Hard Drive,Electronics,4,244.16,976.64,Cash on Delivery,Chicago
+ORD1173,2025-08-03,CUST0149,Smart Watch,Wearables,4,104.36,417.44,Debit Card,Houston
+ORD1295,2025-08-03,CUST0016,External Hard Drive,Electronics,5,134.6,673.0,PayPal,Chicago
+ORD1044,2025-08-03,CUST0022,External Hard Drive,Electronics,1,448.72,448.72,Cash on Delivery,Boston
+ORD1244,2025-08-04,CUST0151,Wireless Earbuds,Electronics,3,14.7,44.1,Net Banking,New York
+ORD1277,2025-08-04,CUST0087,Smart Watch,Wearables,4,355.59,1422.36,Cash on Delivery,Chicago
+ORD1062,2025-08-05,CUST0067,HD Webcam,Electronics,4,109.82,439.28,Net Banking,Phoenix
+ORD1053,2025-08-06,CUST0155,Wireless Mouse,Electronics,4,360.51,1442.04,Net Banking,Phoenix
+ORD1273,2025-08-06,CUST0138,Gaming Keyboard,Electronics,5,71.44,357.2,Cash on Delivery,Chicago
+ORD1214,2025-08-07,CUST0011,HD Webcam,Electronics,5,45.6,228.0,Credit Card,Houston
+ORD1241,2025-08-10,CUST0021,USB-C Charger,Electronics,1,476.13,476.13,Net Banking,Phoenix
+ORD1016,2025-08-11,CUST0122,Laptop Stand,Accessories,1,398.86,398.86,Credit Card,Boston
+ORD1200,2025-08-11,CUST0165,USB-C Charger,Electronics,1,453.86,453.86,Cash on Delivery,Dallas
+ORD1109,2025-08-11,CUST0192,Tablet,Electronics,4,229.24,916.96,Cash on Delivery,Boston
+ORD1121,2025-08-12,CUST0004,Smart Watch,Wearables,3,234.78,704.34,Net Banking,Chicago
+ORD1153,2025-08-12,CUST0199,Bluetooth Speaker,Electronics,1,419.08,419.08,PayPal,San Diego
+ORD1224,2025-08-13,CUST0157,HD Webcam,Electronics,5,410.69,2053.45,Net Banking,Dallas
+ORD1159,2025-08-14,CUST0159,Gaming Keyboard,Electronics,1,271.6,271.6,Debit Card,New York
+ORD1298,2025-08-14,CUST0111,Portable SSD,Electronics,3,416.67,1250.01,Debit Card,Los Angeles
+ORD1233,2025-08-14,CUST0158,HD Webcam,Electronics,2,109.01,218.02,Net Banking,Chicago
+ORD1055,2025-08-15,CUST0044,Noise Cancelling Headphones,Electronics,3,463.16,1389.48,Credit Card,Boston
+ORD1051,2025-08-15,CUST0136,Bluetooth Speaker,Electronics,1,195.9,195.9,Net Banking,New York
+ORD1294,2025-08-16,CUST0151,Gaming Keyboard,Electronics,1,467.6,467.6,Net Banking,Los Angeles
+ORD1061,2025-08-16,CUST0196,Wireless Earbuds,Electronics,4,112.1,448.4,PayPal,Los Angeles
+ORD1192,2025-08-16,CUST0169,Tablet,Electronics,1,335.8,335.8,Cash on Delivery,New York
+ORD1100,2025-08-16,CUST0118,LED Desk Lamp,Home,3,349.31,1047.93,Debit Card,Dallas
+ORD1021,2025-08-17,CUST0013,Gaming Keyboard,Electronics,4,203.51,814.04,Debit Card,Los Angeles
+ORD1032,2025-08-19,CUST0063,USB-C Charger,Electronics,4,244.15,976.6,Cash on Delivery,Boston
+ORD1209,2025-08-20,CUST0179,LED Desk Lamp,Home,1,325.2,325.2,Debit Card,Dallas
+ORD1080,2025-08-21,CUST0024,Portable SSD,Electronics,1,302.13,302.13,Debit Card,San Diego
+ORD1094,2025-08-22,CUST0157,Gaming Keyboard,Electronics,3,352.09,1056.27,PayPal,San Diego
+ORD1180,2025-08-23,CUST0062,Gaming Keyboard,Electronics,5,233.07,1165.35,Credit Card,Dallas
+ORD1102,2025-08-23,CUST0164,External Hard Drive,Electronics,3,467.56,1402.68,Net Banking,New York
+ORD1120,2025-08-24,CUST0116,External Hard Drive,Electronics,2,430.34,860.68,PayPal,Chicago
+ORD1111,2025-08-24,CUST0112,External Hard Drive,Electronics,5,44.6,223.0,Debit Card,New York
+ORD1174,2025-08-24,CUST0118,Wireless Earbuds,Electronics,1,10.69,10.69,Credit Card,Houston
+ORD1150,2025-08-25,CUST0001,Fitness Band,Wearables,4,200.79,803.16,Cash on Delivery,Los Angeles
+ORD1246,2025-08-28,CUST0079,Power Bank,Electronics,4,385.45,1541.8,PayPal,Los Angeles
+ORD1234,2025-08-30,CUST0030,Noise Cancelling Headphones,Electronics,3,417.43,1252.29,Credit Card,San Diego
+ORD1272,2025-08-30,CUST0026,Wireless Mouse,Electronics,1,33.65,33.65,Net Banking,New York
+ORD1264,2025-08-31,CUST0020,Power Bank,Electronics,1,220.87,220.87,Cash on Delivery,San Diego
+ORD1004,2025-09-01,CUST0050,Tablet,Electronics,4,329.19,1316.76,PayPal,Boston
+ORD1134,2025-09-02,CUST0090,USB-C Charger,Electronics,4,379.2,1516.8,Debit Card,Houston
+ORD1124,2025-09-03,CUST0186,Smart Watch,Wearables,4,111.71,446.84,PayPal,Chicago
+ORD1024,2025-09-07,CUST0171,Bluetooth Speaker,Electronics,2,433.32,866.64,PayPal,Los Angeles
+ORD1243,2025-09-08,CUST0173,Laptop Stand,Accessories,2,155.14,310.28,PayPal,Phoenix
+ORD1202,2025-09-08,CUST0116,Gaming Keyboard,Electronics,2,189.61,379.22,Credit Card,Chicago
+ORD1036,2025-09-10,CUST0024,USB-C Charger,Electronics,2,247.05,494.1,Cash on Delivery,Dallas
+ORD1193,2025-09-13,CUST0015,Noise Cancelling Headphones,Electronics,4,410.14,1640.56,PayPal,Chicago
+ORD1101,2025-09-14,CUST0055,Bluetooth Speaker,Electronics,3,326.87,980.61,Credit Card,San Diego
+ORD1199,2025-09-14,CUST0168,Fitness Band,Wearables,1,427.81,427.81,Debit Card,Dallas
+ORD1163,2025-09-16,CUST0063,Portable SSD,Electronics,4,448.62,1794.48,Net Banking,Houston
+ORD1002,2025-09-18,CUST0026,Smart Watch,Wearables,1,104.03,104.03,Credit Card,Chicago
+ORD1248,2025-09-18,CUST0008,Laptop Stand,Accessories,1,485.53,485.53,Cash on Delivery,Phoenix
+ORD1201,2025-09-20,CUST0188,HD Webcam,Electronics,1,215.55,215.55,Cash on Delivery,Dallas
+ORD1019,2025-09-21,CUST0036,Fitness Band,Wearables,1,115.58,115.58,Credit Card,New York
+ORD1189,2025-09-23,CUST0171,HD Webcam,Electronics,4,349.22,1396.88,Credit Card,Dallas
+ORD1118,2025-09-28,CUST0163,Wireless Mouse,Electronics,4,371.49,1485.96,Net Banking,Houston
+ORD1015,2025-09-29,CUST0161,Tablet,Electronics,3,172.77,518.31,Credit Card,Chicago
+ORD1257,2025-10-01,CUST0152,Portable SSD,Electronics,1,24.68,24.68,Debit Card,Phoenix
+ORD1185,2025-10-02,CUST0197,USB-C Charger,Electronics,3,363.91,1091.73,Credit Card,Dallas
+ORD1154,2025-10-05,CUST0153,USB-C Charger,Electronics,2,38.33,76.66,Debit Card,Los Angeles
+ORD1057,2025-10-06,CUST0103,Tablet,Electronics,5,406.14,2030.7,PayPal,Los Angeles
+ORD1235,2025-10-07,CUST0114,Wireless Earbuds,Electronics,5,309.66,1548.3,PayPal,Phoenix
+ORD1085,2025-10-07,CUST0166,HD Webcam,Electronics,2,314.39,628.78,Net Banking,San Diego
+ORD1087,2025-10-14,CUST0076,USB-C Charger,Electronics,3,292.28,876.84,Debit Card,Los Angeles
+ORD1212,2025-10-17,CUST0175,HD Webcam,Electronics,5,143.81,719.05,Debit Card,Chicago
+ORD1265,2025-10-20,CUST0114,Bluetooth Speaker,Electronics,5,72.88,364.4,Cash on Delivery,Houston
+ORD1065,2025-10-20,CUST0032,Portable SSD,Electronics,1,355.07,355.07,Debit Card,Chicago
+ORD1176,2025-10-21,CUST0094,Portable SSD,Electronics,5,104.72,523.6,Net Banking,San Diego
+ORD1078,2025-10-23,CUST0180,Laptop Stand,Accessories,3,346.84,1040.52,PayPal,Los Angeles
+ORD1008,2025-10-25,CUST0018,Fitness Band,Wearables,2,388.36,776.72,Debit Card,Dallas
+ORD1143,2025-10-27,CUST0075,USB-C Charger,Electronics,2,171.13,342.26,PayPal,Los Angeles
+ORD1184,2025-10-28,CUST0140,Fitness Band,Wearables,4,420.99,1683.96,Debit Card,Phoenix
+ORD1255,2025-10-28,CUST0158,Wireless Mouse,Electronics,3,232.71,698.13,Credit Card,San Diego
+ORD1217,2025-10-29,CUST0022,Wireless Earbuds,Electronics,4,363.17,1452.68,Debit Card,New York
+ORD1239,2025-10-29,CUST0116,LED Desk Lamp,Home,4,249.92,999.68,Net Banking,Boston
+ORD1182,2025-10-29,CUST0126,Smart Watch,Wearables,1,204.18,204.18,Debit Card,Los Angeles
+ORD1093,2025-10-30,CUST0026,Tablet,Electronics,3,35.15,105.45,Cash on Delivery,Houston
+ORD1136,2025-11-01,CUST0104,Power Bank,Electronics,2,355.43,710.86,Net Banking,New York
+ORD1045,2025-11-01,CUST0083,Gaming Keyboard,Electronics,1,441.07,441.07,Net Banking,Boston
+ORD1012,2025-11-03,CUST0157,External Hard Drive,Electronics,3,360.15,1080.45,PayPal,Boston
+ORD1030,2025-11-04,CUST0100,Portable SSD,Electronics,2,491.21,982.42,Debit Card,Phoenix
+ORD1050,2025-11-09,CUST0095,Portable SSD,Electronics,1,188.21,188.21,Cash on Delivery,Chicago
+ORD1281,2025-11-09,CUST0019,Bluetooth Speaker,Electronics,1,175.03,175.03,PayPal,Phoenix
+ORD1049,2025-11-10,CUST0191,Bluetooth Speaker,Electronics,1,227.05,227.05,Cash on Delivery,Chicago
+ORD1175,2025-11-10,CUST0127,Wireless Mouse,Electronics,3,314.0,942.0,Debit Card,Dallas
+ORD1048,2025-11-11,CUST0049,Noise Cancelling Headphones,Electronics,2,71.63,143.26,PayPal,Dallas
+ORD1166,2025-11-12,CUST0023,HD Webcam,Electronics,2,317.58,635.16,Net Banking,New York
+ORD1112,2025-11-12,CUST0001,HD Webcam,Electronics,4,254.01,1016.04,Credit Card,Houston
+ORD1035,2025-11-13,CUST0005,Power Bank,Electronics,1,244.0,244.0,PayPal,Los Angeles
+ORD1116,2025-11-17,CUST0135,USB-C Charger,Electronics,1,432.57,432.57,Debit Card,Houston
